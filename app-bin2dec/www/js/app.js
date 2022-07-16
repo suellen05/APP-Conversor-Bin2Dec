@@ -1,16 +1,17 @@
-let salario = document.querySelector('#salario');
+let produto = document.querySelector('#produto');
 
 
 document.querySelector('#btn-calcular').addEventListener('click', () => {
     varejo()
    
-    salario.value = ''
+    produto.value = ''
     
 })
 
 const varejo = () => {
-    let valor = salario.value * 0.5   
-    document.querySelector('#varejo').innerHTML = `<p class="text-center">R$${valor}</p>`
+    let valor = produto.value * 0.5   
+    document.querySelector('#varejo').innerHTML = `<p class="text-center">Peças = ${valor}</p>`
+    
 }
 
 
