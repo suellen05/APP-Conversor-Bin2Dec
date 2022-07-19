@@ -1,13 +1,18 @@
 body{
     font-family: 'Roboto Mono', monospace;
     box-sizing: border-box;
-    background: #dadfe2;
+    background: #aad6e4;
+    text-align: center;
+    font-size: 20px;
+    
+
     
 }
 label{
     font-size: 13px;
-    color: #080808
+    color: #080808;
 }
+
 
 
 
@@ -16,11 +21,12 @@ label{
         color: #dfd9d9;
         background: #9b5353;
         text-align: center;
-        bottom: 1.5rem;
+        bottom: 10.5rem;
         text-decoration: none;
         border-radius: 100%;
         width: 90px;
         height: 30px;
+        font-size: 18px;
         
 
     }
@@ -29,8 +35,21 @@ label{
             text-align: center;
 
         }
+
+        .figure {
+            background:rgb(209, 202, 202);
+            
+        }
     
+        .row{
+            padding: 20px;
+        }
+       
 
 
-
+        .card-subtitle{
+            font-size: 18px;
+            color: #b97373;
+            font-weight: bold;
+        }
    

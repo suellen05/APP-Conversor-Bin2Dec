@@ -16,36 +16,54 @@
   
   <body>
     <br>
-    <main class="container">
-        <nav lass="navbar bg-light">
-            <div class="container-fluid mb-3">
-                <img src="img/logo-primicia.png" alt="" style="width: 10rem;height: 3rem;">
+
+    <div class="card text-center">
+           
+            <figure class="figure">
+                <img src="img/logo-primicia.png" alt="" style="width: 14rem;height: 7rem;">
+
+               
             </div>
 
             <br>
-            <br>
-            <br>
+           
 
         </nav>
-        <div class="row ">
-            <div class="col m-6">
+        <div class="row">
+            <div class="col m-15">
                 <input type="text" class="form-control" placeholder="Qtd Pçs" id="produto">
-                <label for="produtos">Qtd. distribuição lojas</label>
+                <label for="produtos">Qtd. distribuição</label>
             </div>
             <br>
-            <br>
-            <div class="col m-6">
+           <br>
+            <div class="col m-4">
                 <button type="text" class="form-control btn btn-danger" id="btn-calcular">Calcular</button>
             </div>
         </div>
-        <br>
-        <br>
+               
         <div class=" row ">
-            <div class="col m-6 ">
-                <div class="card border border-success textsuccess mt-5 " style="width: 10rem;height: 4rem;">
-                    <p class="card-subtitle mb-2 text-muted m-2">Varejo 55%</p>
+                    <p class="card-subtitle ">Varejo 55%</p>
                     <p class="card-text" id="varejo"></p>
                 </div>
+
+                <div class=" row ">
+                    <p class="card-subtitle">Tivoli 20%</p>
+                    <p class="card-text" id="tivoli"></p>
+                    
+                </div>
+
+                <div class=" row ">
+                    <p class="card-subtitle">Rio Claro 20%</p>
+                    <p class="card-text" id="rioclaro"></p>
+                    
+                </div>
+
+                <div class=" row ">
+                    <p class="card-subtitle">Limeira 20%</p>
+                    <p class="card-text" id="limeira"></p>
+                    
+                </div>
+
             
     </main>
     <script src="js/app.js"></script>
